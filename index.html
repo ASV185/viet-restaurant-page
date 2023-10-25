@@ -20,86 +20,95 @@
 </head>
 </head>
 <style>
+    :root {
+        --primary-color: white;
+        --secondary-color: rgb(236, 228, 228);
+        --accent-color: black;
+        --primary-font-family: 'Montserrat', sans-serif;
+        --secondary-font-family: 'Chivo Mono', monospace;
+        --accent-font-family: 'Poppins', sans-serif;
+    }
+
     h1 {
-        font-family: 'Montserrat', sans-serif;
-        color: white;
-        text-shadow: 2px 2px 2px black;
+        font-family: var(--primary-font-family);
+        color: var(--primary-color);
+        text-shadow: 2px 2px 2px var(--accent-color);
         font-size: 5rem;
     }
 
     h2 {
-        font-family: 'Chivo Mono', monospace;
+        font-family: var(--secondary-font-family);
     }
 
     h3 {
-        font-family: 'Poppins', sans-serif;
+        font-family: var(--accent-font-family);
     }
 
     h4 {
-        font-family: 'Montserrat', sans-serif;
+        font-family: var(--primary-font-family);
     }
 
     h5 {
-        font-family: 'Chivo Mono', monospace;
+        font-family: var(--secondary-font-family);
     }
 
     p {
-        font-family: 'Montserrat', sans-serif;
+        font-family: var(--primary-font-family);
     }
 
     footer {
-        font-family: 'Montserrat', sans-serif;
+        font-family: var(--primary-font-family);
     }
 
     header a {
-        font-family: 'Poppins', sans-serif;
+        font-family: var(--accent-font-family);
         border-radius: 10px;
-        border: solid white;
+        border: solid var(--primary-color);
         font-size: 20px;
         top: 70%;
         text-decoration: none;
-        color: white;
-        text-shadow: 2px 2px 2px black;
+        color: var(--primary-color);
+        text-shadow: 2px 2px 2px var(--accent-color);
     }
 
     header a:hover {
-        font-family: 'Poppins', sans-serif;
-        background-color: black;
+        font-family: var(--accent-font-family);
+        background-color: var(--accent-color);
         border-radius: 10px;
-        border: solid black;
+        border: solid var(--accent-color);
         font-size: 20px;
         top: 70%;
         text-decoration: none;
-        color: white;
-        text-shadow: 2px 2px 2px black;
+        color: var(--primary-color);
+        text-shadow: 2px 2px 2px var(--accent-color);
     }
 
     nav {
-        background-color: rgb(236, 228, 228);
+        background-color: var(--secondary-color);
     }
 
     .nav {
-        background-color: rgb(236, 228, 228);
-        font-family: 'Chivo Mono', monospace;
+        background-color: var(--secondary-color);
+        font-family: var(--secondary-font-family);
     }
 
     .nav a {
-        color: black;
+        color: var(--accent-color);
     }
 
     .nav a:hover {
-        color: black;
+        color: var(--accent-color);
         text-decoration: overline;
     }
 
     .navbar-brand {
-        background-color: rgb(236, 228, 228);
+        background-color: var(--secondary-color);
         font-size: 2.5rem;
-        color: black;
+        color: var(--accent-color);
     }
 
     .story-ingredient-section {
-        background-color: rgb(236, 228, 228);
+        background-color: var(--secondary-color);
     }
 
     .vietnameseingredient:hover {
@@ -111,31 +120,31 @@
 
 <body>
     <nav>
-        <a class="navbar-brand nav justify-content-center" href="#">Việt</a>
+        <a class="navbar-brand nav justify-content-center" href="index.html#viet">Việt</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <ul class="nav nav-underline justify-content-center pb-4">
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Story</a>
+                <a class="nav-link" href="index.html#story">Story</a>
             </li>
 
             <li class="nav-item">
                 <a class="nav-link" href="#">Menu</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Reviews</a>
+                <a class="nav-link" href="index.html#reviews">Reviews</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link">Contact Us</a>
+                <a class="nav-link" href="index.html#contact-us">Contact Us</a>
             </li>
         </ul>
     </nav>
-    <div class="container-fluid m-0 p-0">
+    <div class="container-fluid m-0 p-0" id="viet">
         <header class="m-0 p-0">
             <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/975/original/vietnamese4.jpg?1681447499"
                 class="vietnamesefrontbackground" width="1350" />
@@ -174,7 +183,7 @@
                     <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/978/original/vietrest.jpg?1681452253"
                         class="vietrestimg" />
                 </div>
-                <div class="col-3 text-white bg-dark p-2">
+                <div class="col-3 text-white bg-dark p-2" id="story">
                     <h3>Story</h3>
                     <p>
                         Authentic Vietnamese Food located in Zaraplex in Eastside El Paso Texas.
@@ -212,7 +221,7 @@
             <img src=https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/957/original/vietnameserestuarant.jpg?1681442276""
                 class="img-fluid vietnameserestaurant" width="1350" />
         </section>
-        <section class="reviews-section m-0 p-0">
+        <section class="reviews-section m-0 p-0" id="reviews">
             <h2 class="d-flex justify-content-center p-3">Reviews</h2>
             <div class="row m-4">
                 <div class="card" style="width: 16rem;">
