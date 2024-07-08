@@ -29,6 +29,10 @@
         --accent-font-family: 'Poppins', sans-serif;
     }
 
+    .container {
+        max-width: 1375px;
+    }
+
     h1 {
         font-family: var(--primary-font-family);
         color: var(--primary-color);
@@ -127,213 +131,215 @@
 </style>
 
 <body>
-    <nav>
-        <a class="navbar-brand nav justify-content-center" href="index.html#viet">Việt</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <ul class="nav nav-underline justify-content-center pb-4">
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="index.html#story">Story</a>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link" href="#">Menu</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="index.html#reviews">Reviews</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="index.html#contact-us">Contact Us</a>
-            </li>
-        </ul>
-    </nav>
-    <div class="container-fluid m-0 p-0" id="viet">
-        <header class="m-0 p-0">
-            <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/975/original/vietnamese4.jpg?1681447499"
-                class="vietnamesefrontbackground" width="1350" />
-            <h1 class="position-absolute top-50 start-50 translate-middle shadow-lg p-3 mb-5 rounded">
-                Việt Restaurant</h1>
-            <a href="https://www.google.com/search?q=viet+restaurant&ei=GJk5ZKzcOfmhptQP8fmhgAM&gs_ssp=eJzj4tVP1zc0TDIvzys3r4o3YLRSNaiwMEs1NzExNzVONU82NTFPsjKoMLY0NjFMTkpNNjM0TbUwNfDiL8tMLVEoSi0uSSwtSswrAQDJEhUZ&oq=viet+res&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgAMhQILhCvARDHARCSAxDJAxCABBDqBDIFCAAQgAQyBQgAEIAEMgsILhCABBDHARCvATIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIfCC4QrwEQxwEQkgMQyQMQgAQQ6gQQ3AQQ3gQQ4AQYAToKCAAQRxDWBBCwAzoNCAAQRxDWBBDJAxCwAzoWCC4QrwEQxwEQkgMQyQMQigUQQxDqBDoNCAAQigUQsQMQgwEQQzoHCAAQigUQQzoMCC4QsQMQigUQChBDOiEILhCvARDHARCSAxDJAxCKBRBDEOoEENwEEN4EEOAEGAE6CwgAEIAEELEDEIMBOgcIABCABBAKOgUILhCABEoECEEYAFC5A1jHCGDfEmgBcAF4AIABmAGIAZcEkgEDMC40mAEAoAEByAEIwAEB2gEGCAEQARgU&sclient=gws-wiz-serp#lpg=cid:CgIgAQ%3D%3D,ik:CAoSK0FGMVFpcFB5VTlPOE83ZG51aFVfSDNVQVZ0VmprbXViMGtTQXBlb0xLRmc"
-                id="order button" class="p-3 mb-5 position-absolute start-50 translate-middle">order
-                now</a>
-        </header>
-        <section class="story-ingredient-section pb-5" id="story-ingredient-section">
-            <h2 class="d-flex justify-content-center pt-4 mb-4">Authentic Vietnamese Cuisine</h2>
-            <div class="row">
-                <div class="col-3">
-                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/973/original/ricenoodles.jpg?1681447194"
-                        class="img-fluid vietnameseingredient" />
-                </div>
-                <div class="col-3">
-                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/972/original/lemonmint.jpg?1681447179"
-                        class="img-fluid vietnameseingredient" />
-                </div>
-                <div class="col-3">
-                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/971/original/lemongrass.jpg?1681447170"
-                        class="img-fluid vietnameseingredient" />
-                </div>
-                <div class="col-3">
-                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/967/original/cinnamon.jpg?1681447119"
-                        class="img-fluid vietnameseingredient" />
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-3">
-                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/970/original/ginger.jpg?1681447155"
-                        class="img-fluid vietnameseingredient" />
-                </div>
-                <div class="col-3">
-                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/978/original/vietrest.jpg?1681452253"
-                        class="vietrestimg" />
-                </div>
-                <div class="col-3 text-white bg-dark p-2" id="story">
-                    <h3>Story</h3>
-                    <p>
-                        Authentic Vietnamese Food located in Zaraplex in Eastside El Paso Texas.
-                        Opened since 2017 and was named Best New Restaurant by Yelp in 2017.
-
-                    </p>
-                    <h3> Mission</h3>
-                    <p>Serve Delicious Authentic Vietnamese food to the people of El Paso.</p>
-                </div>
-                <div class="col-3">
-                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/969/original/coriander.jpg?1681447144"
-                        class="img-fluid vietnameseingredient" />
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-3">
-                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/966/original/beansprouts.jpg?1681447082"
-                        class="img-fluid vietnameseingredient" />
-                </div>
-                <div class="col-3">
-                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/965/original/carrots.jpg?1681447068"
-                        class="img-fluid vietnameseingredient" />
-                </div>
-                <div class="col-3">
-                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/964/original/cilantro.jpg?1681447052"
-                        class="img-fluid vietnameseingredient" />
-                </div>
-                <div class="col-3">
-                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/963/original/basil.jpg?1681447042"
-                        class="img-fluid vietnameseingredient" />
-                </div>
-            </div>
-        </section>
-        <section class="decorative-img-section" id="decorative-img-section">
-            <img src=https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/957/original/vietnameserestuarant.jpg?1681442276""
-                class="img-fluid vietnameserestaurant" width="1350" />
-        </section>
-        <section class="reviews-section m-0 p-0" id="reviews">
-            <h2 class="d-flex justify-content-center p-3">Reviews</h2>
-            <div class="row m-4">
-                <div class="card" style="width: 16rem;">
-                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/892/original/vietnamese8.jpg?1681418226"
-                        class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">
-                            Best Pho in El Paso!
-                        </p>
+    <div class="container">
+        <nav>
+            <a class="navbar-brand nav justify-content-center" href="index.html#viet">Việt</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <ul class="nav nav-underline justify-content-center pb-4">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#story">Story</a>
+                </li>
+    
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#reviews">Reviews</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#contact-us">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="container-fluid m-0 p-0" id="viet">
+            <header class="m-0 p-0">
+                <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/975/original/vietnamese4.jpg?1681447499"
+                    class="vietnamesefrontbackground" width="1350" />
+                <h1 class="position-absolute top-50 start-50 translate-middle shadow-lg p-3 mb-5 rounded">
+                    Việt Restaurant</h1>
+                <a href="https://www.google.com/search?q=viet+restaurant&ei=GJk5ZKzcOfmhptQP8fmhgAM&gs_ssp=eJzj4tVP1zc0TDIvzys3r4o3YLRSNaiwMEs1NzExNzVONU82NTFPsjKoMLY0NjFMTkpNNjM0TbUwNfDiL8tMLVEoSi0uSSwtSswrAQDJEhUZ&oq=viet+res&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgAMhQILhCvARDHARCSAxDJAxCABBDqBDIFCAAQgAQyBQgAEIAEMgsILhCABBDHARCvATIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIfCC4QrwEQxwEQkgMQyQMQgAQQ6gQQ3AQQ3gQQ4AQYAToKCAAQRxDWBBCwAzoNCAAQRxDWBBDJAxCwAzoWCC4QrwEQxwEQkgMQyQMQigUQQxDqBDoNCAAQigUQsQMQgwEQQzoHCAAQigUQQzoMCC4QsQMQigUQChBDOiEILhCvARDHARCSAxDJAxCKBRBDEOoEENwEEN4EEOAEGAE6CwgAEIAEELEDEIMBOgcIABCABBAKOgUILhCABEoECEEYAFC5A1jHCGDfEmgBcAF4AIABmAGIAZcEkgEDMC40mAEAoAEByAEIwAEB2gEGCAEQARgU&sclient=gws-wiz-serp#lpg=cid:CgIgAQ%3D%3D,ik:CAoSK0FGMVFpcFB5VTlPOE83ZG51aFVfSDNVQVZ0VmprbXViMGtTQXBlb0xLRmc"
+                    id="order button" class="p-3 mb-5 position-absolute start-50 translate-middle">order
+                    now</a>
+            </header>
+            <section class="story-ingredient-section pb-5" id="story-ingredient-section">
+                <h2 class="d-flex justify-content-center pt-4 mb-4">Authentic Vietnamese Cuisine</h2>
+                <div class="row">
+                    <div class="col-3">
+                        <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/973/original/ricenoodles.jpg?1681447194"
+                            class="img-fluid vietnameseingredient" />
+                    </div>
+                    <div class="col-3">
+                        <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/972/original/lemonmint.jpg?1681447179"
+                            class="img-fluid vietnameseingredient" />
+                    </div>
+                    <div class="col-3">
+                        <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/971/original/lemongrass.jpg?1681447170"
+                            class="img-fluid vietnameseingredient" />
+                    </div>
+                    <div class="col-3">
+                        <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/967/original/cinnamon.jpg?1681447119"
+                            class="img-fluid vietnameseingredient" />
                     </div>
                 </div>
-                <div class="card" style="width: 16rem;">
-                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/891/original/vietnamese7.jpg?1681418218"
-                        class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">
-                            So delicious! Egg rolls weren't frozen, and the pho was great! I loved the service we
-                            received!
+                <div class="row text-center">
+                    <div class="col-3">
+                        <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/970/original/ginger.jpg?1681447155"
+                            class="img-fluid vietnameseingredient" />
+                    </div>
+                    <div class="col-3">
+                        <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/978/original/vietrest.jpg?1681452253"
+                            class="vietrestimg" />
+                    </div>
+                    <div class="col-3 text-white bg-dark p-2" id="story">
+                        <h3>Story</h3>
+                        <p>
+                            Authentic Vietnamese Food located in Zaraplex in Eastside El Paso Texas.
+                            Opened since 2017 and was named Best New Restaurant by Yelp in 2017.
+    
                         </p>
+                        <h3> Mission</h3>
+                        <p>Serve Delicious Authentic Vietnamese food to the people of El Paso.</p>
+                    </div>
+                    <div class="col-3">
+                        <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/969/original/coriander.jpg?1681447144"
+                            class="img-fluid vietnameseingredient" />
                     </div>
                 </div>
-                <div class="card" style="width: 16rem;">
-                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/890/original/vietnamese6.jpg?1681418208"
-                        class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">
-                            La comida y el atendimento es excelente 👍
-                        </p>
+                <div class="row">
+                    <div class="col-3">
+                        <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/966/original/beansprouts.jpg?1681447082"
+                            class="img-fluid vietnameseingredient" />
+                    </div>
+                    <div class="col-3">
+                        <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/965/original/carrots.jpg?1681447068"
+                            class="img-fluid vietnameseingredient" />
+                    </div>
+                    <div class="col-3">
+                        <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/964/original/cilantro.jpg?1681447052"
+                            class="img-fluid vietnameseingredient" />
+                    </div>
+                    <div class="col-3">
+                        <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/963/original/basil.jpg?1681447042"
+                            class="img-fluid vietnameseingredient" />
                     </div>
                 </div>
-                <div class="card" style="width: 16rem;">
-                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/886/original/vietnamese2.jpg?1681418164"
-                        class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">
-                            Fresh ingredients, good portions, friendly service. Coffee is surprisingly good, plenty of
-                            choices even if u r looking
-                            for a vegetarian meal. Love that they listed it well on the menu like what ingredients are
-                            inside the egg rolls/ spring
-                            rolls/ rice / noodles.... Recommended
-                        </p>
+            </section>
+            <section class="decorative-img-section" id="decorative-img-section">
+                <img src=https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/957/original/vietnameserestuarant.jpg?1681442276""
+                    class="img-fluid vietnameserestaurant" width="1350" />
+            </section>
+            <section class="reviews-section m-0 p-0" id="reviews">
+                <h2 class="d-flex justify-content-center p-3">Reviews</h2>
+                <div class="row m-4">
+                    <div class="card" style="width: 16rem;">
+                        <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/892/original/vietnamese8.jpg?1681418226"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">
+                                Best Pho in El Paso!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/891/original/vietnamese7.jpg?1681418218"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">
+                                So delicious! Egg rolls weren't frozen, and the pho was great! I loved the service we
+                                received!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/890/original/vietnamese6.jpg?1681418208"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">
+                                La comida y el atendimento es excelente 👍
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/886/original/vietnamese2.jpg?1681418164"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">
+                                Fresh ingredients, good portions, friendly service. Coffee is surprisingly good, plenty of
+                                choices even if u r looking
+                                for a vegetarian meal. Love that they listed it well on the menu like what ingredients are
+                                inside the egg rolls/ spring
+                                rolls/ rice / noodles.... Recommended
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/885/original/vietnamese1.jpg?1681418151"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">
+                                Yummy
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="card" style="width: 16rem;">
-                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/885/original/vietnamese1.jpg?1681418151"
-                        class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">
-                            Yummy
-                        </p>
+            </section>
+            <section class="location-section">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13570.597932579924!2d-106.2765254!3d31.7527672!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e744753e7c547b%3A0x39341cbec615e850!2sVi%E1%BB%87t%20Restaurant!5e0!3m2!1sen!2sus!4v1699843251493!5m2!1sen!2sus"
+                    class="embed" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </section>
+            <section class="contact-us" id="contact-us">
+                <div class="row">
+                    <div class="col-6 m-0 p-0">
+                        <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/808/original/appetizerrolls.jpg?1681355438"
+                            class="img-fluid" id="vietnamese food" />
+                    </div>
+                    <div class="col-6 text-white bg-dark">
+                        <h4 class="p-3">Việt Restaurant</h4>
+                        <h5 class="p-3">Address: 1700 N Zaragoza Rd #107,108, El Paso, TX 79936
+                            <br><br>
+                            Hours:
+                            Sunday 11 AM-9 PM
+                            <br>
+                            Monday Closed
+                            <br>
+                            Tuesday 11 AM-9 PM
+                            <br>
+                            Wednesday 11 AM-9 PM
+                            <br>
+                            Thursday 11 AM-9 PM
+                            <br>
+                            Friday 11 AM-9 PM
+                            <br>
+                            Saturday 11 AM-9 PM
+                            <br><br>
+                            Phone: (915) 855-8888
+                        </h5>
                     </div>
                 </div>
-            </div>
-        </section>
-        <section class="location-section">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13570.597932579924!2d-106.2765254!3d31.7527672!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e744753e7c547b%3A0x39341cbec615e850!2sVi%E1%BB%87t%20Restaurant!5e0!3m2!1sen!2sus!4v1699843251493!5m2!1sen!2sus"
-                class="embed" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-        </section>
-        <section class="contact-us" id="contact-us">
-            <div class="row">
-                <div class="col-6 m-0 p-0">
-                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/808/original/appetizerrolls.jpg?1681355438"
-                        class="img-fluid" id="vietnamese food" />
-                </div>
-                <div class="col-6 text-white bg-dark">
-                    <h4 class="p-3">Việt Restaurant</h4>
-                    <h5 class="p-3">Address: 1700 N Zaragoza Rd #107,108, El Paso, TX 79936
-                        <br><br>
-                        Hours:
-                        Sunday 11 AM-9 PM
-                        <br>
-                        Monday Closed
-                        <br>
-                        Tuesday 11 AM-9 PM
-                        <br>
-                        Wednesday 11 AM-9 PM
-                        <br>
-                        Thursday 11 AM-9 PM
-                        <br>
-                        Friday 11 AM-9 PM
-                        <br>
-                        Saturday 11 AM-9 PM
-                        <br><br>
-                        Phone: (915) 855-8888
-                    </h5>
-                </div>
-            </div>
-        </section>
-        <footer class="text-white bg-dark p-4">
-            This website created and coded by Amanda Ventura.(not original website)
-            <br>
-            Created for SheCodes Challenge Favorite Restaurant Landing Page 2023.
-            <br>
-            Unsplash.com images from Mockup Graphics, Angelo Pantazis, volant,
-            <br>
-            Mae Mu, Mockupo, Faris Mohammed, Jacqueline Brandwayn, Lena Kulybaba,
-            <br>
-            Maja Vujic, Marko Blažević, and freepik.
-            <br>
-            All Rights Reserved. Amanda Ventura 2023.
-        </footer>
+            </section>
+            <footer class="text-white bg-dark p-4">
+                This website created and coded by Amanda Ventura.(not original website)
+                <br>
+                Created for SheCodes Challenge Favorite Restaurant Landing Page 2023.
+                <br>
+                Unsplash.com images from Mockup Graphics, Angelo Pantazis, volant,
+                <br>
+                Mae Mu, Mockupo, Faris Mohammed, Jacqueline Brandwayn, Lena Kulybaba,
+                <br>
+                Maja Vujic, Marko Blažević, and freepik.
+                <br>
+                All Rights Reserved. Amanda Ventura 2023.
+            </footer>
+        </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
