@@ -8,6 +8,7 @@
     <title>Việt Restaurant</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
@@ -37,7 +38,7 @@
         font-family: var(--primary-font-family);
         color: var(--primary-color);
         text-shadow: 2px 2px 2px var(--accent-color);
-        font-size: 5rem;
+        font-size: 60px;
     }
 
     h2 {
@@ -72,7 +73,7 @@
         top: 70%;
         text-decoration: none;
         color: var(--primary-color);
-        text-shadow: 2px 2px 2px var(--accent-color);
+        margin: 10px 50px;
     }
 
     header a:hover {
@@ -128,10 +129,25 @@
         cursor: pointer;
         transform: scale(1.2);
     }
+
+    footer {
+        padding: 40px;
+    }
+
+    @media (max-width: 575.98px) {  }
+
+    @media (max-width: 767.98px) { }
+
+    @media (max-width: 991.98px) {  }
+
+    @media (max-width: 1199.98px) {  }
+
+    @media (max-width: 1399.98px) {  }
+
 </style>
 
 <body>
-    <div class="container">
+    <div class="container p-0">
         <nav>
             <a class="navbar-brand nav justify-content-center" href="index.html#viet">Việt</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -158,14 +174,23 @@
             </ul>
         </nav>
         <div class="container-fluid m-0 p-0" id="viet">
-            <header class="m-0 p-0">
-                <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/975/original/vietnamese4.jpg?1681447499"
-                    class="vietnamesefrontbackground" width="1350" />
-                <h1 class="position-absolute top-50 start-50 translate-middle shadow-lg p-3 mb-5 rounded">
-                    Việt Restaurant</h1>
-                <a href="https://www.google.com/search?q=viet+restaurant&ei=GJk5ZKzcOfmhptQP8fmhgAM&gs_ssp=eJzj4tVP1zc0TDIvzys3r4o3YLRSNaiwMEs1NzExNzVONU82NTFPsjKoMLY0NjFMTkpNNjM0TbUwNfDiL8tMLVEoSi0uSSwtSswrAQDJEhUZ&oq=viet+res&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgAMhQILhCvARDHARCSAxDJAxCABBDqBDIFCAAQgAQyBQgAEIAEMgsILhCABBDHARCvATIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIfCC4QrwEQxwEQkgMQyQMQgAQQ6gQQ3AQQ3gQQ4AQYAToKCAAQRxDWBBCwAzoNCAAQRxDWBBDJAxCwAzoWCC4QrwEQxwEQkgMQyQMQigUQQxDqBDoNCAAQigUQsQMQgwEQQzoHCAAQigUQQzoMCC4QsQMQigUQChBDOiEILhCvARDHARCSAxDJAxCKBRBDEOoEENwEEN4EEOAEGAE6CwgAEIAEELEDEIMBOgcIABCABBAKOgUILhCABEoECEEYAFC5A1jHCGDfEmgBcAF4AIABmAGIAZcEkgEDMC40mAEAoAEByAEIwAEB2gEGCAEQARgU&sclient=gws-wiz-serp#lpg=cid:CgIgAQ%3D%3D,ik:CAoSK0FGMVFpcFB5VTlPOE83ZG51aFVfSDNVQVZ0VmprbXViMGtTQXBlb0xLRmc"
-                    id="order button" class="p-3 mb-5 position-absolute start-50 translate-middle">order
-                    now</a>
+            <header class="p-0 bg-dark">
+                <div class="row">
+                    <div class="col-md-6 p-0">
+                        <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/975/original/vietnamese4.jpg?1681447499"
+                        class="vietnamesefrontbackground img-fluid" />
+                    </div>
+                    <div class="col-md-6 bg-dark p-0">
+                        <h1 class="text-white text-center p-3 mb-5">
+                            Việt 
+                            <br>
+                            Restaurant
+                        </h1>
+                        <a href="https://www.google.com/search?q=viet+restaurant&ei=GJk5ZKzcOfmhptQP8fmhgAM&gs_ssp=eJzj4tVP1zc0TDIvzys3r4o3YLRSNaiwMEs1NzExNzVONU82NTFPsjKoMLY0NjFMTkpNNjM0TbUwNfDiL8tMLVEoSi0uSSwtSswrAQDJEhUZ&oq=viet+res&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgAMhQILhCvARDHARCSAxDJAxCABBDqBDIFCAAQgAQyBQgAEIAEMgsILhCABBDHARCvATIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIfCC4QrwEQxwEQkgMQyQMQgAQQ6gQQ3AQQ3gQQ4AQYAToKCAAQRxDWBBCwAzoNCAAQRxDWBBDJAxCwAzoWCC4QrwEQxwEQkgMQyQMQigUQQxDqBDoNCAAQigUQsQMQgwEQQzoHCAAQigUQQzoMCC4QsQMQigUQChBDOiEILhCvARDHARCSAxDJAxCKBRBDEOoEENwEEN4EEOAEGAE6CwgAEIAEELEDEIMBOgcIABCABBAKOgUILhCABEoECEEYAFC5A1jHCGDfEmgBcAF4AIABmAGIAZcEkgEDMC40mAEAoAEByAEIwAEB2gEGCAEQARgU&sclient=gws-wiz-serp#lpg=cid:CgIgAQ%3D%3D,ik:CAoSK0FGMVFpcFB5VTlPOE83ZG51aFVfSDNVQVZ0VmprbXViMGtTQXBlb0xLRmc"
+                            id="order button" class="p-3 text-dark bg-white d-block text-center">order
+                            now</a>
+                    </div> 
+                </div>   
             </header>
             <section class="story-ingredient-section pb-5" id="story-ingredient-section">
                 <h2 class="d-flex justify-content-center pt-4 mb-4">Authentic Vietnamese Cuisine</h2>
@@ -297,14 +322,14 @@
                 </iframe>
             </section>
             <section class="contact-us" id="contact-us">
-                <div class="row">
-                    <div class="col-6 m-0 p-0">
+                <div class="row m-0">
+                    <div class="col-md-6 m-0 p-0">
                         <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/808/original/appetizerrolls.jpg?1681355438"
                             class="img-fluid" id="vietnamese food" />
                     </div>
-                    <div class="col-6 text-white bg-dark">
-                        <h4 class="p-3">Việt Restaurant</h4>
-                        <h5 class="p-3">Address: 1700 N Zaragoza Rd #107,108, El Paso, TX 79936
+                    <div class="col-md-6 text-white bg-dark">
+                        <h4 class="p-2">Việt Restaurant</h4>
+                        <h5 class="p-2">Address: 1700 N Zaragoza Rd #107,108, El Paso, TX 79936
                             <br><br>
                             Hours:
                             Sunday 11 AM-9 PM
@@ -326,7 +351,7 @@
                     </div>
                 </div>
             </section>
-            <footer class="text-white bg-dark p-4">
+            <footer class="text-white bg-dark">
                 This website created and coded by Amanda Ventura.(not original website)
                 <br>
                 Created for SheCodes Challenge Favorite Restaurant Landing Page 2023.
